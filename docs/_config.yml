@@ -4,6 +4,7 @@ markdown: GFM
 
 collections:
   projen:
+    output: true
     order:
       - intro/projen-intro-what-is.md
       - intro/projen-how-does-it-work.md

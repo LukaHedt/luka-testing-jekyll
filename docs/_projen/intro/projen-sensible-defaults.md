@@ -4,7 +4,6 @@ title:  "Introduction to Projen - 3. Some Sensible Defaults"
 author: "Luka Hedt <luka.hedt@twobulls.com>"
 date: "2022-05-31 16:00:00 +1000"
 tags: projen how-tos
-output: true
 ---
 
 ## Some Sane Defaults - Make my VsCode startup easy please!
