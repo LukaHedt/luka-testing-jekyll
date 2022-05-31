@@ -2,10 +2,11 @@
 
 ## Contents
 
-- [about](./about.md)
+- [about](/about.md)
+- [index](index.md)
 
 {% for post in site.posts %}
-    - [{{ post.title }}]({{site.url}}{{ post.url }})
+    - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 
 You can use the [editor on GitHub](https://github.com/LukaHedt/luka-testing-jekyll/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.

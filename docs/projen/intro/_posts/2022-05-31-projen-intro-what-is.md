@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Projen - 1. What is it?"
+author: "Luka Hedt"
 ---
 
 Projen is a new, important part of the development cycle for Service Victoria applications.

@@ -199,10 +199,10 @@ This application has nary but an S3 Bucket.
 2. Let's commit that change to our new branch, and create a Pull Request from `feature/test-feature` to `main`. Technically the PR name doesn't matter, but we should follow "Pull Request Lint"'s rules if we wish to keep all our little github checks green. (Please ignore that I have not).
 
 3. We need to create a Github Label on the pull request, entitled `deploy/dev`. This will tell GitHub Actions that we intend for this pull request to be deployed to the Deployment Environment called `dev`.
-   ![Labelled PullRequest](/assets/Labelled PullRequest.png)
+   ![Labelled PullRequest](./assets/Labelled PullRequest.png)
 
 4. Once the build step completes, you will be prompted (via email, most likely), to deploy the application to the `dev` Deployment Environment.
-   ![DeployPrompt](/assets/DeployPrompt.png)
+   ![DeployPrompt](./assets/DeployPrompt.png)
 
 5. Click through the `deploy to dev #2 ` link there, and click `Review Deployments` on the right hand side. (White step below)
 6. Tick the 'dev' checkbox on the modal, and click 'Approve and Deploy' (Red step below)
