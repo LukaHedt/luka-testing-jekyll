@@ -5,6 +5,18 @@
 - [about](/about.md)
 - [index](index.md)
 
+{% for collection in site.collections %}
+
+### {{ collection.label }}
+
+    {% for doc in collection.docs %}
+    - [{{ doc.title }}]({{ site.baseurl }}{{ doc.url }})
+    {% endfor %}
+
+{% endfor %}
+
+### Blog
+
 {% for post in site.posts %}
     - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
