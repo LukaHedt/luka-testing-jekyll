@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Projen - 2. How does it work?"
+categories: projen how-to
 ---
 
 ## So how do I make it chooch on my PC?

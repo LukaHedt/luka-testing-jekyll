@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Introduction to Projen - 5. Deploying a single stack to AWS Sandbox"
+categories: projen how-to
 ---
 
 ## Deploying Code to a Sandbox Development Environment
