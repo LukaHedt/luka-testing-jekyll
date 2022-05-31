@@ -8,12 +8,12 @@ post_step: 2
 ---
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>
 
 ## So how do I make it chooch on my PC?
@@ -127,10 +127,10 @@ If you look at the `.eslintrc.json` file, you'll notice we didn't actually chang
 But that's fine, it does what we want now, so it's all good :smile_cat:.
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>

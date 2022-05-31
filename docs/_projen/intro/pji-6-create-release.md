@@ -8,12 +8,12 @@ post_step: 6
 ---
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>
 
 ## Creating a Release
@@ -29,10 +29,10 @@ Now we act to create a Release for our newly minted test application. Since we h
 Subsequent runs with more commits will bump the version higher, and produce a changelog in the release page from different commits. If you are using the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) pattern, the changelog will be nicely formatted.
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>

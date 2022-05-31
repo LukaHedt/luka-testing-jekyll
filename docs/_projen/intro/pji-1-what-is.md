@@ -8,12 +8,13 @@ post_step: 1
 ---
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<p>This article is based on a document found <a href="https://servicevic.atlassian.net/wiki/spaces/MAE/pages/4798906586/Introduction+to+Projen">here</a></p>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>
 
 Projen is a new, important part of the development cycle for Service Victoria applications.
@@ -51,10 +52,10 @@ What's more, `projen` gives you a **typed typescript interface** to do all this 
 Furthermore, since `projen` is just a typescript interface, an organisation (such as Service Victoria) can issue its own template extensions which set up in-house defaults to provide some uniformity to the repositories it creates. Every time you say "I want to create a new repo", you can just pull the latest version of the SV template library, add a little bit of custom configuration, and you're off to the races! You know it will almost certainly deploy properly, and without issue.
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>

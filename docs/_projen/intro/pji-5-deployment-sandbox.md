@@ -8,12 +8,12 @@ post_step: 5
 ---
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>
 
 ## Deploying Code to a Sandbox Development Environment
@@ -230,10 +230,10 @@ This application has nary but an S3 Bucket.
 Merging PRs can now proceed as normal, which I shall do now.
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>

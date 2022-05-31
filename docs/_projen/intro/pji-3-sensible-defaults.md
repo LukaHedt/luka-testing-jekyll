@@ -8,14 +8,13 @@ post_step: 3
 ---
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>
-
 
 ## Some Sane Defaults - Make my VsCode startup easy please!
 
@@ -117,10 +116,10 @@ project.synth();
 ```
 
 <details>
-  <summary>Related Articles</summary>
-  <ul>
-  {% for projen_doc in site.projen %}
-    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
-  {% endfor %}
-  </ul>
+<summary>Related Articles</summary>
+<ul>
+{% for projen_doc in site.projen %}
+<li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+{% endfor %}
+</ul>
 </details>

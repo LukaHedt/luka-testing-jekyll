@@ -1,5 +1,5 @@
 theme: jekyll-theme-slate
-baseurl: "/luka-testing-jekyll/"
+baseurl: "/luka-testing-jekyll"
 markdown: GFM
 
 collections:
