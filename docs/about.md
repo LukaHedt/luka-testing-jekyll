@@ -24,7 +24,7 @@ pie title Pets adopted by volunteers
   "Rats" : 35
 ```
 
-![Git Flow](/assets/ProjenGitFlow.png)
+![Git Flow](./assets/ProjenGitFlow.png)
 
 [Index Link](./index.md)
 
