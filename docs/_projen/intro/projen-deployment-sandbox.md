@@ -10,9 +10,7 @@ post_step: 5
 ## Related Posts
 
 {% for projen_doc in site.projen %}
-
     - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-
 {% endfor %}
 
 ## Deploying Code to a Sandbox Development Environment

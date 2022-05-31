@@ -10,9 +10,7 @@ post_step: 4
 ## Related Posts
 
 {% for projen_doc in site.projen %}
-
     - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-
 {% endfor %}
 
 ## Github Actions - What the Devil?

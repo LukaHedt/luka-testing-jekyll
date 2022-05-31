@@ -10,9 +10,7 @@ post_step: 1
 ## Related Posts
 
 {% for projen_doc in site.projen %}
-
     - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-
 {% endfor %}
 
 Projen is a new, important part of the development cycle for Service Victoria applications.

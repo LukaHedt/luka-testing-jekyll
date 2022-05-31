@@ -10,9 +10,7 @@ post_step: 3
 ## Related Posts
 
 {% for projen_doc in site.projen %}
-
     - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-
 {% endfor %}
 
 ## Some Sane Defaults - Make my VsCode startup easy please!
