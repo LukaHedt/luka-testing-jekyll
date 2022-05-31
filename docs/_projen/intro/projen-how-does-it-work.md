@@ -4,7 +4,16 @@ title:  "Introduction to Projen - 2. How does it work?"
 author: "Luka Hedt <luka.hedt@twobulls.com>"
 date: "2022-05-31 16:00:00 +1000"
 tags: projen how-tos
+post_step: 2
 ---
+
+## Related Posts
+
+{% for projen_doc in site.projen %}
+
+    - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+
+{% endfor %}
 
 ## So how do I make it chooch on my PC?
 

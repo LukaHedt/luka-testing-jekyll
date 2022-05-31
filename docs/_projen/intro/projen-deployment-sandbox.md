@@ -4,7 +4,16 @@ title:  "Introduction to Projen - 5. Deploying a single stack to AWS Sandbox"
 author: "Luka Hedt <luka.hedt@twobulls.com>"
 date: "2022-05-31 16:00:00 +1000"
 tags: projen how-tos
+post_step: 5
 ---
+
+## Related Posts
+
+{% for projen_doc in site.projen %}
+
+    - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+
+{% endfor %}
 
 ## Deploying Code to a Sandbox Development Environment
 

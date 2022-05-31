@@ -4,7 +4,16 @@ title:  "Introduction to Projen - 1. What is it?"
 author: "Luka Hedt <luka.hedt@twobulls.com>"
 date: "2022-05-31 16:00:00 +1000"
 tags: projen how-tos
+post_step: 1
 ---
+
+## Related Posts
+
+{% for projen_doc in site.projen %}
+
+    - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+
+{% endfor %}
 
 Projen is a new, important part of the development cycle for Service Victoria applications.
 

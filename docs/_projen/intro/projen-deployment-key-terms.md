@@ -4,12 +4,15 @@ title:  "Introduction to Projen - 4. Github Actions and Key Terms for Deployment
 author: "Luka Hedt <luka.hedt@twobulls.com>"
 date: "2022-05-31 16:00:00 +1000"
 tags: projen how-tos
+post_step: 4
 ---
 
 ## Related Posts
 
-{% for projen_doc in site.projen.docs %}
-    - [{{ projen_doc.title }}]({{ site.basurl }}{{ projen_doc.url }})
+{% for projen_doc in site.projen %}
+
+    - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+
 {% endfor %}
 
 ## Github Actions - What the Devil?

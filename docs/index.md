@@ -9,16 +9,12 @@
 
 ### {{ collection.label }}
 
-    {% for doc in collection.docs %}
+{% for doc in collection.docs %}
+
     - [{{ doc.title }}]({{ site.baseurl }}{{ doc.url }})
-    {% endfor %}
 
 {% endfor %}
 
-### Blog
-
-{% for post in site.posts %}
-    - [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
 
 You can use the [editor on GitHub](https://github.com/LukaHedt/luka-testing-jekyll/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
