@@ -5,4 +5,3 @@ markdown: GFM
 collections:
   projen:
     output: true
-    sort_by: post_step
