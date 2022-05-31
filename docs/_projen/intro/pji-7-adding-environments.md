@@ -7,12 +7,14 @@ tags: projen how-tos
 post_step: 7
 ---
 
-## Related Posts
-
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
-
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>
 
 ## Adding More Deployment Environments
 
@@ -29,8 +31,11 @@ This is by no means a well-tested system, but I can offer the following pattern:
 
 You are under no obligation to use any of this, but it may help get you started.
 
-## Related Posts
-
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>

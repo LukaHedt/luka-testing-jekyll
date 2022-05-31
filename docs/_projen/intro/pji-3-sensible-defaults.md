@@ -7,11 +7,15 @@ tags: projen how-tos
 post_step: 3
 ---
 
-## Related Posts
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>
 
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
 
 ## Some Sane Defaults - Make my VsCode startup easy please!
 
@@ -112,8 +116,11 @@ project.synth();
 
 ```
 
-## Related Posts
-
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>

@@ -7,11 +7,14 @@ tags: projen how-tos
 post_step: 4
 ---
 
-## Related Posts
-
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>
 
 ## Github Actions - What the Devil?
 
@@ -83,8 +86,11 @@ A deployment is when the code from a single commit is pushed to, and made availa
 A 'release' in this context, is when code on the `main` branch is tagged with a version number, and (if production environment is set up) the code is deployed to production.
 Technically, Deployment and Release are separate steps, but it is implied that released code is also deployed.
 
-## Related Posts
-
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>

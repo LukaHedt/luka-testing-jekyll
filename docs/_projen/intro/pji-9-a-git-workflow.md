@@ -7,11 +7,15 @@ tags: projen how-tos
 post_step: 9
 ---
 
-## Related Posts
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>
 
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
 
 ## A Git Workflow
 
@@ -44,10 +48,13 @@ You are not bound to it, by any stretch, but it should indicate where code may n
 
 See below diagram for extra context:
 
-![Projen + Git Flow-2]({{site.baseurl}}/assets/ProjenGitFlow.png)
+![Projen + Git Flow-2]({{site.baseurl}}/assets/images/projen/intro/ProjenGitFlow.png)
 
-## Related Posts
-
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>

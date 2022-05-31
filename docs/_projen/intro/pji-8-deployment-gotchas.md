@@ -7,11 +7,14 @@ tags: projen how-tos "projen-templates 0.0.114"
 post_step: 8
 ---
 
-## Related Posts
-
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>
 
 ## Deployment Gotchas
 
@@ -42,8 +45,11 @@ That means - if I have a function in `demo` called 'my-fancy-lambda-func', I can
 
 Since I'm a fan of having nicely-labelled AWS resources, I prepend these items with the environment name in non-prod environments.
 
-## Related Posts
-
-{% for projen_doc in site.projen %}
-- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
-{% endfor %}
+<details>
+  <summary>Related Articles</summary>
+  <ul>
+  {% for projen_doc in site.projen %}
+    <li><a href="{{ site.baseurl }}{{ projen_doc.url }}">{{ projen_doc.title }}</a></li>
+  {% endfor %}
+  </ul>
+</details>
