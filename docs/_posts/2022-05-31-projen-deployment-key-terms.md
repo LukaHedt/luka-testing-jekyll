@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Introduction to Projen - 4. Github Actions and Key Terms for Deployment"
-categories: projen how-to
 ---
 
 ## Github Actions - What the Devil?

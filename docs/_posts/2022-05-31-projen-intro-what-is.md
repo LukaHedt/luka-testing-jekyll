@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Introduction to Projen - 1. What is it?"
-categories: projen how-to
 ---
 
 Projen is a new, important part of the development cycle for Service Victoria applications.

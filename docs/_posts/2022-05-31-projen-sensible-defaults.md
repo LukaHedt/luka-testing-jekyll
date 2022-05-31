@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Introduction to Projen - 3. Some Sensible Defaults"
-categories: projen how-to
 ---
 
 ## Some Sane Defaults - Make my VsCode startup easy please!
