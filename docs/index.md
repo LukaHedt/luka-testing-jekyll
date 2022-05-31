@@ -9,7 +9,6 @@
 ### {{ collection.label }}
 {% for doc in collection.docs %}
 - [{{ doc.title }}]({{ site.baseurl }}{{ doc.url }})
-    - [{{ doc.title }}]({{ site.baseurl }}{{ doc.url }})
 {% endfor %}
 {% endfor %}
 

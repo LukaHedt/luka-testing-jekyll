@@ -10,7 +10,7 @@ post_step: 2
 ## Related Posts
 
 {% for projen_doc in site.projen %}
-    - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
 {% endfor %}
 
 ## So how do I make it chooch on my PC?
@@ -122,3 +122,9 @@ I had to reformat the spacing manually so that ES Lint didn't complain about the
 
 If you look at the `.eslintrc.json` file, you'll notice we didn't actually change the original rule, we added a new entry to `overrides`.
 But that's fine, it does what we want now, so it's all good :smile_cat:.
+
+## Related Posts
+
+{% for projen_doc in site.projen %}
+- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+{% endfor %}

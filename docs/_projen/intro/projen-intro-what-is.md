@@ -10,7 +10,7 @@ post_step: 1
 ## Related Posts
 
 {% for projen_doc in site.projen %}
-    - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+  - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
 {% endfor %}
 
 Projen is a new, important part of the development cycle for Service Victoria applications.
@@ -46,3 +46,9 @@ Not with `projen` though! Projen is designed as a layer on top of other tools li
 What's more, `projen` gives you a **typed typescript interface** to do all this generation! No more messing about with json files where you're sure to make a type at some point.
 
 Furthermore, since `projen` is just a typescript interface, an organisation (such as Service Victoria) can issue its own template extensions which set up in-house defaults to provide some uniformity to the repositories it creates. Every time you say "I want to create a new repo", you can just pull the latest version of the SV template library, add a little bit of custom configuration, and you're off to the races! You know it will almost certainly deploy properly, and without issue.
+
+## Related Posts
+
+{% for projen_doc in site.projen %}
+- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+{% endfor %}

@@ -10,7 +10,7 @@ post_step: 5
 ## Related Posts
 
 {% for projen_doc in site.projen %}
-    - [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
 {% endfor %}
 
 ## Deploying Code to a Sandbox Development Environment
@@ -225,3 +225,9 @@ This application has nary but an S3 Bucket.
 8. Now, every time a new commit is added to the Pull Request, you will be prompted to re-deploy once the build step is complete.
 
 Merging PRs can now proceed as normal, which I shall do now.
+
+## Related Posts
+
+{% for projen_doc in site.projen %}
+- [{{ projen_doc.title }}]({{ site.baseurl }}{{ projen_doc.url }})
+{% endfor %}

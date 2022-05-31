@@ -6,9 +6,3 @@ collections:
   projen:
     output: true
     sort_by: post_step
-    order:
-      - intro/projen-intro-what-is.md
-      - intro/projen-how-does-it-work.md
-      - intro/projen-sensible-defaults.md
-      - intro/projen-deployment-key-terms.md
-      - intro/projen-deployment-sandbox.md
