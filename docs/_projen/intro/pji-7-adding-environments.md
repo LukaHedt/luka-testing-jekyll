@@ -63,7 +63,7 @@ We've also specified a list of  `allowedBranches`, which are the github branches
 
 Let's re-run `npx projen` to re-generate the GitHub actions for deployment. We should see sections in the build & release workflows that reference the `devstack1` and `uat` environments.
 
-**Note:** at this point, we can merge our code into our `main` branch. We won't yet be able to deploy anything to these environments - we haven't yet created the AWS CDK Stacks that match them, but we need the `build` workflow that targets these environments to already exist before we can deploy infrastructure to them. This may seem confusing, but see the "Deployment Gotchas" section for more details.
+**Note:** at this point, we can merge our code into our `main` branch. We won't yet be able to deploy anything to these environments - we haven't yet created the AWS CDK Stacks that match them, but the projen templates will compile fine
 
 #### Adding AWS CDK Stacks
 
